@@ -2,3 +2,103 @@
 @import 'colors';
 @import 'fonts';
 @import 'variables';
+
+body {
+  font-family: $primary-font-family;
+  background: $primary-bg;
+  font-size: $primary-font-size;
+}
+
+.container {
+  padding: $primary-spacer;
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.card {
+  background-color: $white;
+  border-radius: $primary-border-radius;
+}
+
+.card__image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: $primary-border-radius $primary-border-radius 0 0;
+}
+
+.card__body {
+  padding: 1.5rem;
+}
+
+.card__title {
+  font-size: 2rem;
+  line-height: 1;
+  font-family: $secondary-font-family;
+  margin-bottom: $primary-spacer;
+}
+
+.card__subtitle {
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: $primary-spacer;
+  color: $dark-grayish-blue;
+}
+
+.card__text,
+.card__product-price {
+  margin-bottom: $primary-spacer;
+  color: $dark-grayish-blue;
+}
+
+.card__product-price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: $secondary-font-family;
+  font-weight: 700;
+  color: $dark-cyan;
+  font-size: 2rem;
+}
+
+.card__product-price--small {
+  font-family: $primary-font-family;
+  font-size: .8rem;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: $dark-grayish-blue;
+}
+
+.card__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 0.75rem;
+  background-color: $primary-btn;
+  color: $white;
+  border: none;
+  border-radius: $primary-btn-radius;
+}
+
+.card__button-icon {
+  display: inline-block;
+  padding-right: 0.5rem;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
