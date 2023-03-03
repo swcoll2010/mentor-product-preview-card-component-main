@@ -21,9 +21,10 @@
 
   <main class="container">
     <article class="card">
-      <img src="./assets/images/image-product-mobile.jpg" 
-           alt="a bottle of perfume"
-           class="card__image">
+      <picture>
+        <source srcset="./assets/images/image-product-desktop.jpg" media="(min-width: 768px)">
+        <img src="./assets/images/image-product-mobile.jpg" alt="a bottle of perfume" class="card__image">
+      </picture>
   
       <div class="card__body">
         <h3 class="card__subtitle">Perfume</h3>
