@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/swcoll2010/mentor-product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://github.com/swcoll2010/mentor-product-preview-card-component-main/actions)
+- Solution URL: [solution URL here](https://github.com/swcoll2010/mentor-product-preview-card-component-main)
+- Live Site URL: [live site URL here](https://swcoll2010.github.io/mentor-product-preview-card-component-main/)
 
 ## My process
 
