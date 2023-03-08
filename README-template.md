@@ -53,8 +53,6 @@ Better use of SASS files configuration, I'm using a mild reset at the moment, fo
 
 To expand knowledge of flexbox, flexbox seems simple but has some caveats, whereas, whilst grid appears to be more complicated to start with, it's easier due to the cells containing the content more. Flexbox seems to flexible at times, when you don't want it to be.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ## Author
 
 - Frontend Mentor - [@swcoll2010](https://www.frontendmentor.io/profile/swcoll2010)
