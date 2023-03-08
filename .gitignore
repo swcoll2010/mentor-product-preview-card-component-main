@@ -15,7 +15,4 @@
 .DS_Store
 .prettierignore
 
-styles.min.css
-styles.min.css.map
-
 node_modules/
