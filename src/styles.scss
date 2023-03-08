@@ -89,6 +89,10 @@ body {
   border-radius: $primary-btn-radius;
 }
 
+.card__button:hover {
+  background-color: adjust-color($color: $primary-btn, $lightness: -10%);
+}
+
 .card__button-icon {
   display: inline-block;
   padding-right: 0.5rem;
