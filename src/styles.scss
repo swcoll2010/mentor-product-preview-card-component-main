@@ -25,17 +25,15 @@ body {
 .card {
   background-color: $white;
   border-radius: $primary-border-radius;
-}
 
-.card__image {
-  width: 100%;
-  max-width: 100%;
-  border-radius: $primary-border-radius $primary-border-radius 0 0;
-}
+  & .card__image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: $primary-border-radius $primary-border-radius 0 0;
+  }
 
-.card__body {
-  padding: 1.5rem;
-}
+  .card__body {
+    padding: 1.5rem;
 
 .card__title {
   font-size: 2rem;
@@ -114,17 +112,21 @@ body {
     display: grid;
     place-content: center;
   }
+
   .card {
     width: 568px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+    & .card__image {
+      border-radius: $primary-border-radius 0 0 $primary-border-radius;
+    }
+  
+    & .card__body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
-  .card__image {
-    border-radius: $primary-border-radius 0 0 $primary-border-radius;
-  }
-  .card__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+
 }
