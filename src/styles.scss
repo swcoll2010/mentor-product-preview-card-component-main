@@ -26,6 +26,7 @@ body {
 .card {
   background-color: $white;
   border-radius: $primary-border-radius;
+  max-width: 600px;
 
   & .card__image {
     width: 100%;
@@ -72,7 +73,6 @@ body {
       font-family: $primary-font-family;
       font-size: 0.8rem;
       font-weight: $font-weight-normal;
-      text-decoration: line-through;
       color: $dark-grayish-blue;
     }
   }
@@ -88,14 +88,16 @@ body {
     color: $white;
     border: none;
     border-radius: $primary-btn-radius;
+    cursor: pointer;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: adjust-color($color: $primary-btn, $lightness: -10%);
     }
 
     & .card__button-icon {
       display: inline-block;
-      padding-right: 0.5rem;
+      padding-right: 0.75rem;
     }
   }
 }
@@ -117,7 +119,6 @@ body {
   }
 
   .card {
-    width: 568px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
