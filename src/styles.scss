@@ -7,6 +7,7 @@ body {
   font-family: $primary-font-family;
   background: $primary-bg;
   font-size: $primary-font-size;
+  font-weight: $font-weight-normal;
 }
 
 .container {
@@ -44,7 +45,7 @@ body {
 }
 
 .card__subtitle {
-  font-weight: 400;
+  font-weight: $font-weight-normal;
   font-size: 0.7rem;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -63,7 +64,7 @@ body {
   align-items: center;
   gap: 1rem;
   font-family: $secondary-font-family;
-  font-weight: 700;
+  font-weight: $font-weight-bold;
   color: $dark-cyan;
   font-size: 2rem;
 }
@@ -71,7 +72,7 @@ body {
 .card__product-price--small {
   font-family: $primary-font-family;
   font-size: .8rem;
-  font-weight: 400;
+  font-weight: $font-weight-normal
   text-decoration: line-through;
   color: $dark-grayish-blue;
 }
